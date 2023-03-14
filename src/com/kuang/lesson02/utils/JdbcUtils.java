@@ -1,6 +1,5 @@
 package com.kuang.lesson02.utils;
 
-import java.io.IOException;
 import java.io.InputStream;
 import java.sql.*;
 import java.util.Properties;
@@ -33,6 +32,7 @@ public class JdbcUtils {
 
             //1.驱动只用加载一次
             Class.forName(driver);
+
 
         } catch (Exception e){
             e.printStackTrace();

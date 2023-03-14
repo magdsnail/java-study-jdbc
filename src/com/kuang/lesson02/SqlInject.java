@@ -1,7 +1,6 @@
 package com.kuang.lesson02;
 
 import com.kuang.lesson02.utils.JdbcUtils;
-import sun.rmi.server.UnicastServerRef;
 
 import java.sql.Connection;
 import java.sql.ResultSet;

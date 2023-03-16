@@ -43,8 +43,6 @@ public class TestDBCP {
             if (i > 0) {
                 System.out.println("插入成功");
             }
-
-
         } catch (SQLException e) {
             e.printStackTrace();
         } finally {

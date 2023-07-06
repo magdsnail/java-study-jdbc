@@ -21,7 +21,6 @@ public class TestInsert {
         Connection conn = null;
         PreparedStatement st = null;
         ResultSet rs = null;
-
         try {
             conn = JdbcUtils.getConnection();
 
